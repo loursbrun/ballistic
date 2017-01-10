@@ -295,7 +295,7 @@
     <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#c0c0c0;font-weight:bold;min-width:50px">
         <nobr>-1.09</nobr>
     </td>
-    <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#c0c0c0;border-left:1px solid;border-left-color:#000000;min-width:50px">
+    <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#ffc266;border-left:1px solid;border-left-color:#000000;min-width:50px">
         <nobr><?php echo $wind1 ?></nobr>
     </td>
     <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#c0c0c0;min-width:50px">
@@ -360,7 +360,7 @@
     <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#ffffff;font-weight:bold;min-width:50px">
         <nobr>1.95</nobr>
     </td>
-    <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#ffffff;border-left:1px solid;border-left-color:#000000;min-width:50px">
+    <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#ffc266;border-left:1px solid;border-left-color:#000000;min-width:50px">
         <nobr><?php echo $wind2 ?></nobr>
     </td>
     <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#ffffff;min-width:50px">
@@ -425,7 +425,7 @@
     <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#c0c0c0;font-weight:bold;min-width:50px">
         <nobr>0.00</nobr>
     </td>
-    <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#c0c0c0;border-left:1px solid;border-left-color:#000000;min-width:50px">
+    <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#ffc266;border-left:1px solid;border-left-color:#000000;min-width:50px">
         <nobr><?php echo $wind3 ?></nobr>
     </td>
     <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#c0c0c0;min-width:50px">
@@ -490,7 +490,7 @@
     <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#ffffff;font-weight:bold;min-width:50px">
         <nobr>-8.40</nobr>
     </td>
-    <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#ffffff;border-left:1px solid;border-left-color:#000000;min-width:50px">
+    <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#ffc266;border-left:1px solid;border-left-color:#000000;min-width:50px">
         <nobr><?php echo $wind4 ?></nobr>
     </td>
     <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#ffffff;min-width:50px">
@@ -555,7 +555,7 @@
     <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#c0c0c0;font-weight:bold;min-width:50px">
         <nobr>-24.12</nobr>
     </td>
-    <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#c0c0c0;border-left:1px solid;border-left-color:#000000;min-width:50px">
+    <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#ffc266;border-left:1px solid;border-left-color:#000000;min-width:50px">
         <nobr><?php echo $wind5 ?></nobr>
     </td>
     <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#c0c0c0;min-width:50px">
@@ -620,7 +620,7 @@
     <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#ffffff;font-weight:bold;min-width:50px">
         <nobr>-50.64</nobr>
     </td>
-    <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#ffffff;border-left:1px solid;border-left-color:#000000;min-width:50px">
+    <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#ffc266;border-left:1px solid;border-left-color:#000000;min-width:50px">
         <nobr><?php echo $wind6 ?></nobr>
     </td>
     <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#ffffff;min-width:50px">
@@ -685,7 +685,7 @@
     <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#c0c0c0;font-weight:bold;min-width:50px">
         <nobr>-88.83</nobr>
     </td>
-    <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#c0c0c0;border-left:1px solid;border-left-color:#000000;min-width:50px">
+    <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#ffc266;border-left:1px solid;border-left-color:#000000;min-width:50px">
         <nobr><?php echo $wind7 ?></nobr>
     </td>
     <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#c0c0c0;min-width:50px">
@@ -750,7 +750,7 @@
     <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#ffffff;font-weight:bold;min-width:50px">
         <nobr>-144.49</nobr>
     </td>
-    <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#ffffff;border-left:1px solid;border-left-color:#000000;min-width:50px">
+    <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#ffc266;border-left:1px solid;border-left-color:#000000;min-width:50px">
         <nobr><?php echo $wind8 ?></nobr>
     </td>
     <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#ffffff;min-width:50px">
@@ -815,7 +815,7 @@
     <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#c0c0c0;font-weight:bold;min-width:50px">
         <nobr>-218.90</nobr>
     </td>
-    <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#c0c0c0;border-left:1px solid;border-left-color:#000000;min-width:50px">
+    <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#ffc266;border-left:1px solid;border-left-color:#000000;min-width:50px">
         <nobr><?php echo $wind9 ?></nobr>
     </td>
     <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#c0c0c0;min-width:50px">
@@ -880,7 +880,7 @@
     <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#ffffff;font-weight:bold;min-width:50px">
         <nobr>-321.52</nobr>
     </td>
-    <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#ffffff;border-left:1px solid;border-left-color:#000000;min-width:50px">
+    <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#ffc266;border-left:1px solid;border-left-color:#000000;min-width:50px">
         <nobr><?php echo $wind10 ?></nobr>
     </td>
     <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#ffffff;min-width:50px">
@@ -945,7 +945,7 @@
     <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#c0c0c0;font-weight:bold;min-width:50px">
         <nobr>-454.12</nobr>
     </td>
-    <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#c0c0c0;border-left:1px solid;border-left-color:#000000;min-width:50px">
+    <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#ffc266;border-left:1px solid;border-left-color:#000000;min-width:50px">
         <nobr><?php echo $wind11 ?></nobr>
     </td>
     <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#c0c0c0;min-width:50px">
@@ -1010,7 +1010,7 @@
     <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#ffffff;font-weight:bold;min-width:50px">
         <nobr>-617.98</nobr>
     </td>
-    <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#ffffff;border-left:1px solid;border-left-color:#000000;min-width:50px">
+    <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#ffc266;border-left:1px solid;border-left-color:#000000;min-width:50px">
         <nobr><?php echo $wind12 ?></nobr>
     </td>
     <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#ffffff;min-width:50px">
@@ -1075,7 +1075,7 @@
     <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#c0c0c0;font-weight:bold;min-width:50px">
         <nobr>-822.55</nobr>
     </td>
-    <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#c0c0c0;border-left:1px solid;border-left-color:#000000;min-width:50px">
+    <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#ffc266;border-left:1px solid;border-left-color:#000000;min-width:50px">
         <nobr><?php echo $wind13 ?></nobr>
     </td>
     <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#c0c0c0;min-width:50px">
@@ -1140,7 +1140,7 @@
     <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#ffffff;font-weight:bold;min-width:50px">
         <nobr>-1054.23</nobr>
     </td>
-    <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#ffffff;border-left:1px solid;border-left-color:#000000;min-width:50px">
+    <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#ffc266;border-left:1px solid;border-left-color:#000000;min-width:50px">
         <nobr><?php echo $wind14 ?></nobr>
     </td>
     <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#ffffff;min-width:50px">
@@ -1205,7 +1205,7 @@
     <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#c0c0c0;font-weight:bold;min-width:50px">
         <nobr>-1338.86</nobr>
     </td>
-    <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#c0c0c0;border-left:1px solid;border-left-color:#000000;min-width:50px">
+    <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#ffc266;border-left:1px solid;border-left-color:#000000;min-width:50px">
         <nobr><?php echo $wind15 ?></nobr>
     </td>
     <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#c0c0c0;min-width:50px">
@@ -1270,7 +1270,7 @@
     <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#ffffff;font-weight:bold;min-width:50px">
         <nobr>-1671,13</nobr>
     </td>
-    <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#ffffff;border-left:1px solid;border-left-color:#000000;min-width:50px">
+    <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#ffc266;border-left:1px solid;border-left-color:#000000;min-width:50px">
         <nobr><?php echo $wind16 ?></nobr>
     </td>
     <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#ffffff;min-width:50px">
@@ -1335,7 +1335,7 @@
     <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#c0c0c0;font-weight:bold;border-bottom:1px solid;border-bottom-color:#000000;min-width:50px">
         <nobr>-2036.19</nobr>
     </td>
-    <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#c0c0c0;border-left:1px solid;border-bottom:1px solid;border-left-color:#000000;border-bottom-color:#000000;min-width:50px">
+    <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#ffc266;border-left:1px solid;border-bottom:1px solid;border-left-color:#000000;border-bottom-color:#000000;min-width:50px">
         <nobr><?php echo $wind17 ?></nobr>
     </td>
     <td style="font-family:Arial;text-align:right;font-size:11px;background-color:#c0c0c0;border-bottom:1px solid;border-bottom-color:#000000;min-width:50px">
