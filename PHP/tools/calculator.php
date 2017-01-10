@@ -8,12 +8,36 @@
  $bullet_weight = 125;                // gr
  $ballistic_coefficient = 0.326 ;
  $start_distance = 100;
- $range_increment = 100;
+ $range_increment = 50;
  $altitude = 0;                       //ft
  $temperature = 65;                   // F
  $scope_height = 1.09;                // inch
  $zero_range = 200 ;                  //yds
 
+
+
+
+
+
+
+// Array distances step
+$distance1 = $start_distance;
+$distance2 = $start_distance + $range_increment * 1 ;
+$distance3 = $start_distance + $range_increment * 2 ;
+$distance4 = $start_distance + $range_increment * 3 ;
+$distance5 = $start_distance + $range_increment * 4 ;
+$distance6 = $start_distance + $range_increment * 5 ;
+$distance7 = $start_distance + $range_increment * 6 ;
+$distance8 = $start_distance + $range_increment * 7 ;
+$distance9 = $start_distance + $range_increment * 8 ;
+$distance10 = $start_distance + $range_increment * 9 ;
+$distance11 = $start_distance + $range_increment * 10 ;
+$distance12 = $start_distance + $range_increment * 11 ;
+$distance13 = $start_distance + $range_increment * 12 ;
+$distance14 = $start_distance + $range_increment * 13 ;
+$distance15 = $start_distance + $range_increment * 14 ;
+$distance16 = $start_distance + $range_increment * 15 ;
+$distance17 = $start_distance + $range_increment * 16 ;
 
 
 
@@ -761,10 +785,6 @@ $R[49] = $O[49] + $P[49] * ( $E[21] - $S[49]) + $Q[49] * ( $E[21] - $S[49]) ** 2
 
 
 
-$result = $E[5];
-
-
-
 
 
 // Array T   - VB
@@ -998,23 +1018,23 @@ echo ("</table>");
 echo ("<table>");
 
 echo ("<caption>Drop</caption>");
-echo ("<tr><th>100</th><td>" . $G[5]."</td></tr>");                  // fps
-echo ("<tr><th>200</th><td>" . $G[6]."</td></tr>");
-echo ("<tr><th>300</th><td>" . $G[7]."</td></tr>");
-echo ("<tr><th>400</th><td>" . $G[8]."</td></tr>");
-echo ("<tr><th>500</th><td>" . $G[9]."</td></tr>");
-echo ("<tr><th>600</th><td>" . $G[10]."</td></tr>");
-echo ("<tr><th>700</th><td>" . $G[11]."</td></tr>");
-echo ("<tr><th>800</th><td>" . $G[12]."</td></tr>");
-echo ("<tr><th>900</th><td>" . $G[13]."</td></tr>");
-echo ("<tr><th>1000</th><td>" . $G[14]."</td></tr>");
-echo ("<tr><th>1100</th><td>" . $G[15]."</td></tr>");
-echo ("<tr><th>1200</th><td>" . $G[16]."</td></tr>");
-echo ("<tr><th>1300</th><td>" . $G[17]."</td></tr>");
-echo ("<tr><th>1400</th><td>" . $G[18]."</td></tr>");
-echo ("<tr><th>1500</th><td>" . $G[19]."</td></tr>");
-echo ("<tr><th>1600</th><td>" . $G[20]."</td></tr>");
-echo ("<tr><th>1700</th><td>" . $G[21]."</td></tr>");
+echo ("<tr><th>".$distance1."</th><td>" . $G[5]."</td></tr>");
+echo ("<tr><th>".$distance2."</th><td>" . $G[6]."</td></tr>");
+echo ("<tr><th>".$distance3."</th><td>" . $G[7]."</td></tr>");
+echo ("<tr><th>".$distance4."</th><td>" . $G[8]."</td></tr>");
+echo ("<tr><th>".$distance5."</th><td>" . $G[9]."</td></tr>");
+echo ("<tr><th>".$distance6."</th><td>" . $G[10]."</td></tr>");
+echo ("<tr><th>".$distance7."</th><td>" . $G[11]."</td></tr>");
+echo ("<tr><th>".$distance8."</th><td>" . $G[12]."</td></tr>");
+echo ("<tr><th>".$distance9."</th><td>" . $G[13]."</td></tr>");
+echo ("<tr><th>".$distance10."</th><td>" . $G[14]."</td></tr>");
+echo ("<tr><th>".$distance11."</th><td>" . $G[15]."</td></tr>");
+echo ("<tr><th>".$distance12."</th><td>" . $G[16]."</td></tr>");
+echo ("<tr><th>".$distance13."</th><td>" . $G[17]."</td></tr>");
+echo ("<tr><th>".$distance14."</th><td>" . $G[18]."</td></tr>");
+echo ("<tr><th>".$distance15."</th><td>" . $G[19]."</td></tr>");
+echo ("<tr><th>".$distance16."</th><td>" . $G[20]."</td></tr>");
+echo ("<tr><th>".$distance17."</th><td>" . $G[21]."</td></tr>");
 
 
 echo ("</table>");

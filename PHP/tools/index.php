@@ -5,8 +5,7 @@
 </head>
 <body>
 <b>
-    <u>Sheet Name</u> :- <?echo $title ?>
-    <u>RESULT</u> :<?echo $result ?>
+
 </b>
 <hr>
 <table class="" cellspacing=0 border=1>
