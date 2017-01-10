@@ -492,8 +492,8 @@ namespace balistic
 		
 
 
-			// Array L   - AS
-
+		
+			int i = 0;            
 
 
 
