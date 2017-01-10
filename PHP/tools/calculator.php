@@ -44,6 +44,33 @@ $distance17 = $start_distance + $range_increment * 16 ;
 
 
 
+// Velocity
+
+$distanceArray = [
+    0 => $start_distance,
+    1 =>  $start_distance + $range_increment * 1,
+    2 => $start_distance + $range_increment * 2,
+    3 => $start_distance + $range_increment * 3 ,
+    4 => $start_distance + $range_increment * 4,
+    5 => $start_distance + $range_increment * 5,
+    6 => $start_distance + $range_increment * 6,
+    7 => $start_distance + $range_increment * 7,
+    8 => $start_distance + $range_increment * 8,
+    9 => $start_distance + $range_increment * 9,
+    10 => $start_distance + $range_increment * 10 ,
+    11 => $start_distance + $range_increment * 11,
+    12 => $start_distance + $range_increment * 12,
+    13 => $start_distance + $range_increment * 13,
+    14 => $start_distance + $range_increment * 14,
+    15 => $start_distance + $range_increment * 15,
+    16 => $start_distance + $range_increment * 16,
+];
+
+
+
+
+
+
 
 // Array
 $A = [
@@ -998,23 +1025,23 @@ $D = [
 
 
 // Vent
-$wind1 = round(176 * ($T[33] - (3 * $distance1) / $velocity)/2  * (1 - $ballistic_coefficient/2 )) ;
-$wind2 = round(176 * ($T[34] - (3 * $distance2) / $velocity)/2 * (1 - $ballistic_coefficient/2 )) ;
-$wind3 = round(176 * ($T[35] - (3 * $distance3) / $velocity)/2 * (1 - $ballistic_coefficient/2 ));
-$wind4 = round(176 * ($T[36] - (3 * $distance4) / $velocity)/2 * (1 - $ballistic_coefficient/2 )) ;
-$wind5 = round(176 * ($T[37] - (3 * $distance5) / $velocity)/2 * (1 - $ballistic_coefficient/2 )) ;
-$wind6 = round(176 * ($T[38] - (3 * $distance6) / $velocity)/2 * (1 - $ballistic_coefficient/2 )) ;
-$wind7 = round(176 * ($T[39] - (3 * $distance7) / $velocity)/2 * (1 - $ballistic_coefficient/2 )) ;
-$wind8 = round(176 * ($T[40] - (3 * $distance8) / $velocity)/2 * (1 - $ballistic_coefficient/2 )) ;
-$wind9 = round(176 * ($T[41] - (3 * $distance9) / $velocity)/2 * (1 - $ballistic_coefficient/2 )) ;
-$wind10 = round(176 * ($T[42] - (3 * $distance10) / $velocity)/2 * (1 - $ballistic_coefficient/2 )) ;
-$wind11 = round(176 * ($T[43] - (3 * $distance10) / $velocity)/2 * (1 - $ballistic_coefficient/2 )) ;
-$wind12 = round(176 * ($T[44] - (3 * $distance10) / $velocity)/2 * (1 - $ballistic_coefficient/2 )) ;
-$wind13 = round(176 * ($T[45] - (3 * $distance10) / $velocity)/2 * (1 - $ballistic_coefficient/2 )) ;
-$wind14 = round(176 * ($T[46] - (3 * $distance10) / $velocity)/2 * (1 - $ballistic_coefficient/2 )) ;
-$wind15 = round(176 * ($T[47] - (3 * $distance10) / $velocity)/2 * (1 - $ballistic_coefficient/2 )) ;
-$wind16 = round(176 * ($T[48] - (3 * $distance10) / $velocity)/2 * (1 - $ballistic_coefficient/2 )) ;
-$wind17 = round(176 * ($T[49] - (3 * $distance10) / $velocity)/2 * (1 - $ballistic_coefficient/2 ))   ;
+$wind1 = round(176 * ($T[33] - (3 * $distanceArray[0]) / $velocity)/2  * (1 - $ballistic_coefficient/2 )) ;
+$wind2 = round(176 * ($T[34] - (3 * $distanceArray[1]) / $velocity)/2 * (1 - $ballistic_coefficient/2 )) ;
+$wind3 = round(176 * ($T[35] - (3 * $distanceArray[2]) / $velocity)/2 * (1 - $ballistic_coefficient/2 ));
+$wind4 = round(176 * ($T[36] - (3 * $distanceArray[3]) / $velocity)/2 * (1 - $ballistic_coefficient/2 )) ;
+$wind5 = round(176 * ($T[37] - (3 * $distanceArray[4]) / $velocity)/2 * (1 - $ballistic_coefficient/2 )) ;
+$wind6 = round(176 * ($T[38] - (3 * $distanceArray[5]) / $velocity)/2 * (1 - $ballistic_coefficient/2 )) ;
+$wind7 = round(176 * ($T[39] - (3 * $distanceArray[6]) / $velocity)/2 * (1 - $ballistic_coefficient/2 )) ;
+$wind8 = round(176 * ($T[40] - (3 * $distanceArray[7]) / $velocity)/2 * (1 - $ballistic_coefficient/2 )) ;
+$wind9 = round(176 * ($T[41] - (3 * $distanceArray[8]) / $velocity)/2 * (1 - $ballistic_coefficient/2 )) ;
+$wind10 = round(176 * ($T[42] - (3 * $distanceArray[9]) / $velocity)/2 * (1 - $ballistic_coefficient/2 )) ;
+$wind11 = round(176 * ($T[43] - (3 * $distanceArray[10]) / $velocity)/2 * (1 - $ballistic_coefficient/2 )) ;
+$wind12 = round(176 * ($T[44] - (3 * $distanceArray[11]) / $velocity)/2 * (1 - $ballistic_coefficient/2 )) ;
+$wind13 = round(176 * ($T[45] - (3 * $distanceArray[12]) / $velocity)/2 * (1 - $ballistic_coefficient/2 )) ;
+$wind14 = round(176 * ($T[46] - (3 * $distanceArray[13]) / $velocity)/2 * (1 - $ballistic_coefficient/2 )) ;
+$wind15 = round(176 * ($T[47] - (3 * $distanceArray[14]) / $velocity)/2 * (1 - $ballistic_coefficient/2 )) ;
+$wind16 = round(176 * ($T[48] - (3 * $distanceArray[15]) / $velocity)/2 * (1 - $ballistic_coefficient/2 )) ;
+$wind17 = round(176 * ($T[49] - (3 * $distanceArray[16]) / $velocity)/2 * (1 - $ballistic_coefficient/2 ))   ;
 
 
 
@@ -1119,23 +1146,23 @@ echo ("</table>");
 echo ("<table>");
 
 echo ("<caption>Drop</caption>");
-echo ("<tr><th>".$distance1."</th><td>" . $dropArray[0]."</td></tr>");
-echo ("<tr><th>".$distance2."</th><td>" . $dropArray[1]."</td></tr>");
-echo ("<tr><th>".$distance3."</th><td>" . $dropArray[2]."</td></tr>");
-echo ("<tr><th>".$distance4."</th><td>" . $dropArray[3]."</td></tr>");
-echo ("<tr><th>".$distance5."</th><td>" . $dropArray[4]."</td></tr>");
-echo ("<tr><th>".$distance6."</th><td>" . $dropArray[5]."</td></tr>");
-echo ("<tr><th>".$distance7."</th><td>" . $dropArray[6]."</td></tr>");
-echo ("<tr><th>".$distance8."</th><td>" . $dropArray[7]."</td></tr>");
-echo ("<tr><th>".$distance9."</th><td>" . $dropArray[8]."</td></tr>");
-echo ("<tr><th>".$distance10."</th><td>" . $dropArray[9]."</td></tr>");
-echo ("<tr><th>".$distance11."</th><td>" . $dropArray[10]."</td></tr>");
-echo ("<tr><th>".$distance12."</th><td>" . $dropArray[11]."</td></tr>");
-echo ("<tr><th>".$distance13."</th><td>" . $dropArray[12]."</td></tr>");
-echo ("<tr><th>".$distance14."</th><td>" . $dropArray[13]."</td></tr>");
-echo ("<tr><th>".$distance15."</th><td>" . $dropArray[14]."</td></tr>");
-echo ("<tr><th>".$distance16."</th><td>" . $dropArray[15]."</td></tr>");
-echo ("<tr><th>".$distance17."</th><td>" . $dropArray[16]."</td></tr>");
+echo ("<tr><th>".$distanceArray[0]."</th><td>" . $dropArray[0]."</td></tr>");
+echo ("<tr><th>".$distanceArray[1]."</th><td>" . $dropArray[1]."</td></tr>");
+echo ("<tr><th>".$distanceArray[2]."</th><td>" . $dropArray[2]."</td></tr>");
+echo ("<tr><th>".$distanceArray[3]."</th><td>" . $dropArray[3]."</td></tr>");
+echo ("<tr><th>".$distanceArray[4]."</th><td>" . $dropArray[4]."</td></tr>");
+echo ("<tr><th>".$distanceArray[5]."</th><td>" . $dropArray[5]."</td></tr>");
+echo ("<tr><th>".$distanceArray[6]."</th><td>" . $dropArray[6]."</td></tr>");
+echo ("<tr><th>".$distanceArray[7]."</th><td>" . $dropArray[7]."</td></tr>");
+echo ("<tr><th>".$distanceArray[8]."</th><td>" . $dropArray[8]."</td></tr>");
+echo ("<tr><th>".$distanceArray[9]."</th><td>" . $dropArray[9]."</td></tr>");
+echo ("<tr><th>".$distanceArray[10]."</th><td>" . $dropArray[10]."</td></tr>");
+echo ("<tr><th>".$distanceArray[11]."</th><td>" . $dropArray[11]."</td></tr>");
+echo ("<tr><th>".$distanceArray[12]."</th><td>" . $dropArray[12]."</td></tr>");
+echo ("<tr><th>".$distanceArray[13]."</th><td>" . $dropArray[13]."</td></tr>");
+echo ("<tr><th>".$distanceArray[14]."</th><td>" . $dropArray[14]."</td></tr>");
+echo ("<tr><th>".$distanceArray[15]."</th><td>" . $dropArray[15]."</td></tr>");
+echo ("<tr><th>".$distanceArray[16]."</th><td>" . $dropArray[16]."</td></tr>");
 
 echo ("</table>");
 
