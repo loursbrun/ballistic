@@ -23,10 +23,6 @@
 
 
 
-
-
-
-
 // Array distances step
 $distance1 = $start_distance;
 $distance2 = $start_distance + $range_increment * 1 ;
