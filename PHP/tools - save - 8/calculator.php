@@ -7,10 +7,10 @@
  $velocity = 2900;                    // fps
  $bullet_weight = 125;                // gr
  $ballistic_coefficient = 0.326 ;
- $start_distance = 100;
+ $start_distance = 0;
  $range_increment = 100;
  $altitude = 0;                       //ft
- $temperature = 65;                   // F
+ $temperature = 68;                   // F
  $scope_height = 1.09;                // inch
  $zero_range = 200 ;                  //yds
 
@@ -956,68 +956,9 @@ $D = [
 
 
 
-
-
- $velocity = 2900;                    // fps
- $bullet_weight = 125;                // gr
- $ballistic_coefficient = 0.326 ;
- $start_distance = 100;
- $range_increment = 100;
- $altitude = 0;                       //ft
- $temperature = 65;                   // F
- $scope_height = 1.09;                // inch
- $zero_range = 200 ;                  //yds
-
-
 */
 
 
-
-// Resultat
-echo("<style>table, th, td {  border: 1px solid black;  border-collapse: collapse;  }  th, td {  padding: 5px;  text-align: left;  }</style>");
-echo("<style>table { display: inline-block; vertical-align: top; margin-left: 20px; }</style>");
-
-
-
-echo ("<table>");
-
-echo ("<caption>Parameters</caption>");
-echo ("<tr><th>velocity (fps)</th><td>" . $velocity."</td></tr>");                  // fps
-echo ("<tr><th>bullet_weight</th><td>" . $bullet_weight."</td></tr>");
-echo ("<tr><th>ballistic_coefficient</th><td>" . $ballistic_coefficient."</td></tr>");
-echo ("<tr><th>start_distance (yards)</th><td>" . $start_distance."</td></tr>");
-echo ("<tr><th>range_increment (yard)</th><td>" . $range_increment."</td></tr>");
-echo ("<tr><th>altitude (feet)</th><td>" . $altitude."</td></tr>");
-echo ("<tr><th>temperature (F)</th><td>" . $temperature."</td></tr>");
-echo ("<tr><th>scope_height (inch)</th><td>" . $scope_height."</td></tr>");
-echo ("<tr><th>zero_range (yards)</th><td>" . $zero_range."</td></tr>");
-
-
-echo ("</table>");
-
-echo ("<table>");
-
-echo ("<caption>Drop</caption>");
-echo ("<tr><th>100</th><td>" . $G[5]."</td></tr>");                  // fps
-echo ("<tr><th>200</th><td>" . $G[6]."</td></tr>");
-echo ("<tr><th>300</th><td>" . $G[7]."</td></tr>");
-echo ("<tr><th>400</th><td>" . $G[8]."</td></tr>");
-echo ("<tr><th>500</th><td>" . $G[9]."</td></tr>");
-echo ("<tr><th>600</th><td>" . $G[10]."</td></tr>");
-echo ("<tr><th>700</th><td>" . $G[11]."</td></tr>");
-echo ("<tr><th>800</th><td>" . $G[12]."</td></tr>");
-echo ("<tr><th>900</th><td>" . $G[13]."</td></tr>");
-echo ("<tr><th>1000</th><td>" . $G[14]."</td></tr>");
-echo ("<tr><th>1100</th><td>" . $G[15]."</td></tr>");
-echo ("<tr><th>1200</th><td>" . $G[16]."</td></tr>");
-echo ("<tr><th>1300</th><td>" . $G[17]."</td></tr>");
-echo ("<tr><th>1400</th><td>" . $G[18]."</td></tr>");
-echo ("<tr><th>1500</th><td>" . $G[19]."</td></tr>");
-echo ("<tr><th>1600</th><td>" . $G[20]."</td></tr>");
-echo ("<tr><th>1700</th><td>" . $G[21]."</td></tr>");
-
-
-echo ("</table>");
 
 
 
