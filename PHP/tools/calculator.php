@@ -1074,23 +1074,23 @@ $windArray = [
 // Drop Array
 
 $dropArray = [
-    0 => $G[5],
-    1 => $G[6],
-    2 => $G[7],
-    3 => $G[8],
-    4 => $G[9],
-    5 => $G[10],
-    6 => $G[11],
-    7 => $G[12],
-    8 => $G[13],
-    9 => $G[14],
-    10 => $G[15],
-    11 => $G[16],
-    12 => $G[17],
-    13 => $G[18],
-    14 => $G[19],
-    15 => $G[20],
-    16 => $G[21]
+    0 => round(abs($G[5])),
+    1 => round(abs($G[6])),
+    2 => round(abs($G[7])),
+    3 => round(abs($G[8])),
+    4 => round(abs($G[9])),
+    5 => round(abs($G[10])),
+    6 => round(abs($G[11])),
+    7 => round(abs($G[12])),
+    8 => round(abs($G[13])),
+    9 => round(abs($G[14])),
+    10 => round(abs($G[15])),
+    11 => round(abs($G[16])),
+    12 => round(abs($G[17])),
+    13 => round(abs($G[18])),
+    14 => round(abs($G[19])),
+    15 => round(abs($G[20])),
+    16 => round(abs($G[21]))
 ];
 
 
