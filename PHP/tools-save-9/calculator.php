@@ -1025,75 +1025,20 @@ $wind17 = round(176 * ($T[49] - (3 * $distance10) / $velocity)/2 * (1 - $ballist
 
 
 
-// Wind Array
-
-$windArray = [
-    0 => $wind1,
-    1 => $wind2,
-    2 => $wind3,
-    3 => $wind4,
-    4 => $wind5,
-    5 => $wind6,
-    6 => $wind7,
-    7 => $wind8,
-    8 => $wind9,
-    9 => $wind10,
-    10 => $wind11,
-    11 => $wind12,
-    12 => $wind13,
-    13 => $wind14,
-    14 => $wind15,
-    15 => $wind16,
-    16 => $wind17
-];
 
 
-// Drop Array
 
-$dropArray = [
-    0 => $G[5],
-    1 => $G[6],
-    2 => $G[7],
-    3 => $G[8],
-    4 => $G[9],
-    5 => $G[10],
-    6 => $G[11],
-    7 => $G[12],
-    8 => $G[13],
-    9 => $G[14],
-    10 => $G[15],
-    11 => $G[16],
-    12 => $G[17],
-    13 => $G[18],
-    14 => $G[19],
-    15 => $G[20],
-    16 => $G[21]
-];
+/*echo("<br>distance:".$distance10);
+echo("<br>vent:".$T[42]);
+echo("<br>velocity:".$velocity);
+echo("<br>vent:".$wind10);
 
 
-// Velocity
-
-$velocityArray = [
-    0 => $E[5],
-    1 => $E[6],
-    2 => $E[7],
-    3 => $E[8],
-    4 => $E[9],
-    5 => $E[10],
-    6 => $E[11],
-    7 => $E[12],
-    8 => $E[13],
-    9 => $E[14],
-    10 => $E[15],
-    11 => $E[16],
-    12 => $E[17],
-    13 => $E[18],
-    14 => $E[19],
-    15 => $E[20],
-    16 => $E[21]
-];
-
-
+$wind15 = 176 * ($T[47] - (3 * $distance15) / $velocity)/2 ;
+echo("<br>distance:".$distance15);
+echo("<br>vent:".$T[47]);
+echo("<br>velocity:".$velocity);
+echo("<br>vent:".$wind15);*/
 
 
 
@@ -1123,70 +1068,69 @@ echo ("</table>");
 echo ("<table>");
 
 echo ("<caption>Drop</caption>");
-echo ("<tr><th>".$distance1."</th><td>" . $dropArray[0]."</td></tr>");
-echo ("<tr><th>".$distance2."</th><td>" . $dropArray[1]."</td></tr>");
-echo ("<tr><th>".$distance3."</th><td>" . $dropArray[2]."</td></tr>");
-echo ("<tr><th>".$distance4."</th><td>" . $dropArray[3]."</td></tr>");
-echo ("<tr><th>".$distance5."</th><td>" . $dropArray[4]."</td></tr>");
-echo ("<tr><th>".$distance6."</th><td>" . $dropArray[5]."</td></tr>");
-echo ("<tr><th>".$distance7."</th><td>" . $dropArray[6]."</td></tr>");
-echo ("<tr><th>".$distance8."</th><td>" . $dropArray[7]."</td></tr>");
-echo ("<tr><th>".$distance9."</th><td>" . $dropArray[8]."</td></tr>");
-echo ("<tr><th>".$distance10."</th><td>" . $dropArray[9]."</td></tr>");
-echo ("<tr><th>".$distance11."</th><td>" . $dropArray[10]."</td></tr>");
-echo ("<tr><th>".$distance12."</th><td>" . $dropArray[11]."</td></tr>");
-echo ("<tr><th>".$distance13."</th><td>" . $dropArray[12]."</td></tr>");
-echo ("<tr><th>".$distance14."</th><td>" . $dropArray[13]."</td></tr>");
-echo ("<tr><th>".$distance15."</th><td>" . $dropArray[14]."</td></tr>");
-echo ("<tr><th>".$distance16."</th><td>" . $dropArray[15]."</td></tr>");
-echo ("<tr><th>".$distance17."</th><td>" . $dropArray[16]."</td></tr>");
+echo ("<tr><th>".$distance1."</th><td>" . $G[5]."</td></tr>");
+echo ("<tr><th>".$distance2."</th><td>" . $G[6]."</td></tr>");
+echo ("<tr><th>".$distance3."</th><td>" . $G[7]."</td></tr>");
+echo ("<tr><th>".$distance4."</th><td>" . $G[8]."</td></tr>");
+echo ("<tr><th>".$distance5."</th><td>" . $G[9]."</td></tr>");
+echo ("<tr><th>".$distance6."</th><td>" . $G[10]."</td></tr>");
+echo ("<tr><th>".$distance7."</th><td>" . $G[11]."</td></tr>");
+echo ("<tr><th>".$distance8."</th><td>" . $G[12]."</td></tr>");
+echo ("<tr><th>".$distance9."</th><td>" . $G[13]."</td></tr>");
+echo ("<tr><th>".$distance10."</th><td>" . $G[14]."</td></tr>");
+echo ("<tr><th>".$distance11."</th><td>" . $G[15]."</td></tr>");
+echo ("<tr><th>".$distance12."</th><td>" . $G[16]."</td></tr>");
+echo ("<tr><th>".$distance13."</th><td>" . $G[17]."</td></tr>");
+echo ("<tr><th>".$distance14."</th><td>" . $G[18]."</td></tr>");
+echo ("<tr><th>".$distance15."</th><td>" . $G[19]."</td></tr>");
+echo ("<tr><th>".$distance16."</th><td>" . $G[20]."</td></tr>");
+echo ("<tr><th>".$distance17."</th><td>" . $G[21]."</td></tr>");
 
 echo ("</table>");
 
 echo ("<table>");
 
 echo ("<caption>Velocity</caption>");
-echo ("<tr><td>" . $velocityArray[0]."</td></tr>");
-echo ("<tr><td>" . $velocityArray[1]."</td></tr>");
-echo ("<tr><td>" . $velocityArray[2]."</td></tr>");
-echo ("<tr><td>" . $velocityArray[3]."</td></tr>");
-echo ("<tr><td>" . $velocityArray[4]."</td></tr>");
-echo ("<tr><td>" . $velocityArray[5]."</td></tr>");
-echo ("<tr><td>" . $velocityArray[6]."</td></tr>");
-echo ("<tr><td>" . $velocityArray[7]."</td></tr>");
-echo ("<tr><td>" . $velocityArray[8]."</td></tr>");
-echo ("<tr><td>" . $velocityArray[9]."</td></tr>");
-echo ("<tr><td>" . $velocityArray[10]."</td></tr>");
-echo ("<tr><td>" . $velocityArray[11]."</td></tr>");
-echo ("<tr><td>" . $velocityArray[12]."</td></tr>");
-echo ("<tr><td>" . $velocityArray[13]."</td></tr>");
-echo ("<tr><td>" . $velocityArray[14]."</td></tr>");
-echo ("<tr><td>" . $velocityArray[15]."</td></tr>");
-echo ("<tr><td>" . $velocityArray[16]."</td></tr>");
-
+echo ("<tr><td>" . $E[5]."</td></tr>");
+echo ("<tr><td>" . $E[6]."</td></tr>");
+echo ("<tr><td>" . $E[7]."</td></tr>");
+echo ("<tr><td>" . $E[8]."</td></tr>");
+echo ("<tr><td>" . $E[9]."</td></tr>");
+echo ("<tr><td>" . $E[10]."</td></tr>");
+echo ("<tr><td>" . $E[11]."</td></tr>");
+echo ("<tr><td>" . $E[12]."</td></tr>");
+echo ("<tr><td>" . $E[13]."</td></tr>");
+echo ("<tr><td>" . $E[14]."</td></tr>");
+echo ("<tr><td>" . $E[15]."</td></tr>");
+echo ("<tr><td>" . $E[16]."</td></tr>");
+echo ("<tr><td>" . $E[17]."</td></tr>");
+echo ("<tr><td>" . $E[18]."</td></tr>");
+echo ("<tr><td>" . $E[19]."</td></tr>");
+echo ("<tr><td>" . $E[20]."</td></tr>");
+echo ("<tr><td>" . $E[21]."</td></tr>");
 
 
 echo ("</table>");
 echo ("<table>");
 
 echo ("<caption>Wind </caption>");
-echo ("<tr><td>" . $windArray[0]."</td></tr>");
-echo ("<tr><td>" . $windArray[1]."</td></tr>");
-echo ("<tr><td>" . $windArray[2]."</td></tr>");
-echo ("<tr><td>" . $windArray[3]."</td></tr>");
-echo ("<tr><td>" . $windArray[4]."</td></tr>");
-echo ("<tr><td>" . $windArray[5]."</td></tr>");
-echo ("<tr><td>" . $windArray[6]."</td></tr>");
-echo ("<tr><td>" . $windArray[7]."</td></tr>");
-echo ("<tr><td>" . $windArray[8]."</td></tr>");
-echo ("<tr><td>" . $windArray[9]."</td></tr>");
-echo ("<tr><td>" . $windArray[10]."</td></tr>");
-echo ("<tr><td>" . $windArray[11]."</td></tr>");
-echo ("<tr><td>" . $windArray[12]."</td></tr>");
-echo ("<tr><td>" . $windArray[13]."</td></tr>");
-echo ("<tr><td>" . $windArray[14]."</td></tr>");
-echo ("<tr><td>" . $windArray[15]."</td></tr>");
-echo ("<tr><td>" . $windArray[16]."</td></tr>");
+echo ("<tr><td>" . $wind1."</td></tr>");
+echo ("<tr><td>" . $wind2."</td></tr>");
+echo ("<tr><td>" . $wind3."</td></tr>");
+echo ("<tr><td>" . $wind4."</td></tr>");
+echo ("<tr><td>" . $wind5."</td></tr>");
+echo ("<tr><td>" . $wind6."</td></tr>");
+echo ("<tr><td>" . $wind7."</td></tr>");
+echo ("<tr><td>" . $wind8."</td></tr>");
+echo ("<tr><td>" . $wind9."</td></tr>");
+echo ("<tr><td>" . $wind10."</td></tr>");
+echo ("<tr><td>" . $wind11."</td></tr>");
+echo ("<tr><td>" . $wind12."</td></tr>");
+echo ("<tr><td>" . $wind13."</td></tr>");
+echo ("<tr><td>" . $wind14."</td></tr>");
+echo ("<tr><td>" . $wind15."</td></tr>");
+echo ("<tr><td>" . $wind16."</td></tr>");
+echo ("<tr><td>" . $wind17."</td></tr>");
 
 echo ("</table>");
 

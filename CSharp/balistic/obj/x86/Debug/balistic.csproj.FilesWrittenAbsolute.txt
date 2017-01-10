@@ -3,3 +3,8 @@
 /Users/fabienbrun/Desktop/balistic/balistic/bin/Debug/balistic.exe
 /Users/fabienbrun/Desktop/balistic/balistic/obj/x86/Debug/balistic.exe
 /Users/fabienbrun/Desktop/balistic/balistic/obj/x86/Debug/balistic.exe.mdb
+/Work/unity/balistic/CSharp/balistic/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Work/unity/balistic/CSharp/balistic/bin/Debug/balistic.exe.mdb
+/Work/unity/balistic/CSharp/balistic/bin/Debug/balistic.exe
+/Work/unity/balistic/CSharp/balistic/obj/x86/Debug/balistic.exe
+/Work/unity/balistic/CSharp/balistic/obj/x86/Debug/balistic.exe.mdb

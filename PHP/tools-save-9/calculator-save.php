@@ -2,49 +2,18 @@
 
 
 
-
+ $title = "Sniperspirit";
 
  $velocity = 2900;                    // fps
- $bullet_weight = 250;                // gr
- $ballistic_coefficient = 0.350 ;
- $start_distance = 100;
+ $bullet_weight = 125;                // gr
+ $ballistic_coefficient = 0.326 ;
+ $start_distance = 0;
  $range_increment = 100;
  $altitude = 0;                       //ft
- $temperature = 65;                   // F
+ $temperature = 68;                   // F
  $scope_height = 1.09;                // inch
  $zero_range = 200 ;                  //yds
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Array distances step
-$distance1 = $start_distance;
-$distance2 = $start_distance + $range_increment * 1 ;
-$distance3 = $start_distance + $range_increment * 2 ;
-$distance4 = $start_distance + $range_increment * 3 ;
-$distance5 = $start_distance + $range_increment * 4 ;
-$distance6 = $start_distance + $range_increment * 5 ;
-$distance7 = $start_distance + $range_increment * 6 ;
-$distance8 = $start_distance + $range_increment * 7 ;
-$distance9 = $start_distance + $range_increment * 8 ;
-$distance10 = $start_distance + $range_increment * 9 ;
-$distance11 = $start_distance + $range_increment * 10 ;
-$distance12 = $start_distance + $range_increment * 11 ;
-$distance13 = $start_distance + $range_increment * 12 ;
-$distance14 = $start_distance + $range_increment * 13 ;
-$distance15 = $start_distance + $range_increment * 14 ;
-$distance16 = $start_distance + $range_increment * 15 ;
-$distance17 = $start_distance + $range_increment * 16 ;
 
 
 
@@ -792,6 +761,10 @@ $R[49] = $O[49] + $P[49] * ( $E[21] - $S[49]) + $Q[49] * ( $E[21] - $S[49]) ** 2
 
 
 
+$result = $E[5];
+
+
+
 
 
 // Array T   - VB
@@ -983,212 +956,10 @@ $D = [
 
 
 
-
-
- $velocity = 2900;                    // fps
- $bullet_weight = 125;                // gr
- $ballistic_coefficient = 0.326 ;
- $start_distance = 100;
- $range_increment = 100;
- $altitude = 0;                       //ft
- $temperature = 65;                   // F
- $scope_height = 1.09;                // inch
- $zero_range = 200 ;                  //yds
-
-
 */
 
 
 
-
-// Vent
-$wind1 = round(176 * ($T[33] - (3 * $distance1) / $velocity)/2  * (1 - $ballistic_coefficient/2 )) ;
-$wind2 = round(176 * ($T[34] - (3 * $distance2) / $velocity)/2 * (1 - $ballistic_coefficient/2 )) ;
-$wind3 = round(176 * ($T[35] - (3 * $distance3) / $velocity)/2 * (1 - $ballistic_coefficient/2 ));
-$wind4 = round(176 * ($T[36] - (3 * $distance4) / $velocity)/2 * (1 - $ballistic_coefficient/2 )) ;
-$wind5 = round(176 * ($T[37] - (3 * $distance5) / $velocity)/2 * (1 - $ballistic_coefficient/2 )) ;
-$wind6 = round(176 * ($T[38] - (3 * $distance6) / $velocity)/2 * (1 - $ballistic_coefficient/2 )) ;
-$wind7 = round(176 * ($T[39] - (3 * $distance7) / $velocity)/2 * (1 - $ballistic_coefficient/2 )) ;
-$wind8 = round(176 * ($T[40] - (3 * $distance8) / $velocity)/2 * (1 - $ballistic_coefficient/2 )) ;
-$wind9 = round(176 * ($T[41] - (3 * $distance9) / $velocity)/2 * (1 - $ballistic_coefficient/2 )) ;
-$wind10 = round(176 * ($T[42] - (3 * $distance10) / $velocity)/2 * (1 - $ballistic_coefficient/2 )) ;
-$wind11 = round(176 * ($T[43] - (3 * $distance10) / $velocity)/2 * (1 - $ballistic_coefficient/2 )) ;
-$wind12 = round(176 * ($T[44] - (3 * $distance10) / $velocity)/2 * (1 - $ballistic_coefficient/2 )) ;
-$wind13 = round(176 * ($T[45] - (3 * $distance10) / $velocity)/2 * (1 - $ballistic_coefficient/2 )) ;
-$wind14 = round(176 * ($T[46] - (3 * $distance10) / $velocity)/2 * (1 - $ballistic_coefficient/2 )) ;
-$wind15 = round(176 * ($T[47] - (3 * $distance10) / $velocity)/2 * (1 - $ballistic_coefficient/2 )) ;
-$wind16 = round(176 * ($T[48] - (3 * $distance10) / $velocity)/2 * (1 - $ballistic_coefficient/2 )) ;
-$wind17 = round(176 * ($T[49] - (3 * $distance10) / $velocity)/2 * (1 - $ballistic_coefficient/2 ))   ;
-
-
-
-
-
-
-// Wind Array
-
-$windArray = [
-    0 => $wind1,
-    1 => $wind2,
-    2 => $wind3,
-    3 => $wind4,
-    4 => $wind5,
-    5 => $wind6,
-    6 => $wind7,
-    7 => $wind8,
-    8 => $wind9,
-    9 => $wind10,
-    10 => $wind11,
-    11 => $wind12,
-    12 => $wind13,
-    13 => $wind14,
-    14 => $wind15,
-    15 => $wind16,
-    16 => $wind17
-];
-
-
-// Drop Array
-
-$dropArray = [
-    0 => $G[5],
-    1 => $G[6],
-    2 => $G[7],
-    3 => $G[8],
-    4 => $G[9],
-    5 => $G[10],
-    6 => $G[11],
-    7 => $G[12],
-    8 => $G[13],
-    9 => $G[14],
-    10 => $G[15],
-    11 => $G[16],
-    12 => $G[17],
-    13 => $G[18],
-    14 => $G[19],
-    15 => $G[20],
-    16 => $G[21]
-];
-
-
-// Velocity
-
-$velocityArray = [
-    0 => $E[5],
-    1 => $E[6],
-    2 => $E[7],
-    3 => $E[8],
-    4 => $E[9],
-    5 => $E[10],
-    6 => $E[11],
-    7 => $E[12],
-    8 => $E[13],
-    9 => $E[14],
-    10 => $E[15],
-    11 => $E[16],
-    12 => $E[17],
-    13 => $E[18],
-    14 => $E[19],
-    15 => $E[20],
-    16 => $E[21]
-];
-
-
-
-
-
-// Resultat
-echo("<style>table, th, td {  border: 1px solid black;  border-collapse: collapse; min-width: 50px }  th, td {  padding: 5px;  text-align: left;  }</style>");
-echo("<style>table { display: inline-block; vertical-align: top; margin-left: 20px; }</style>");
-echo("<style>caption { background-color: #c0c0c0 }</style>");
-
-
-
-echo ("<table>");
-
-echo ("<caption>Parameters</caption>");
-echo ("<tr><th>velocity (fps)</th><td>" . $velocity."</td></tr>");                  // fps
-echo ("<tr><th>bullet_weight</th><td>" . $bullet_weight."</td></tr>");
-echo ("<tr><th>ballistic_coefficient</th><td>" . $ballistic_coefficient."</td></tr>");
-echo ("<tr><th>start_distance (yards)</th><td>" . $start_distance."</td></tr>");
-echo ("<tr><th>range_increment (yard)</th><td>" . $range_increment."</td></tr>");
-echo ("<tr><th>altitude (feet)</th><td>" . $altitude."</td></tr>");
-echo ("<tr><th>temperature (F)</th><td>" . $temperature."</td></tr>");
-echo ("<tr><th>scope_height (inch)</th><td>" . $scope_height."</td></tr>");
-echo ("<tr><th>zero_range (yards)</th><td>" . $zero_range."</td></tr>");
-
-
-echo ("</table>");
-
-echo ("<table>");
-
-echo ("<caption>Drop</caption>");
-echo ("<tr><th>".$distance1."</th><td>" . $dropArray[0]."</td></tr>");
-echo ("<tr><th>".$distance2."</th><td>" . $dropArray[1]."</td></tr>");
-echo ("<tr><th>".$distance3."</th><td>" . $dropArray[2]."</td></tr>");
-echo ("<tr><th>".$distance4."</th><td>" . $dropArray[3]."</td></tr>");
-echo ("<tr><th>".$distance5."</th><td>" . $dropArray[4]."</td></tr>");
-echo ("<tr><th>".$distance6."</th><td>" . $dropArray[5]."</td></tr>");
-echo ("<tr><th>".$distance7."</th><td>" . $dropArray[6]."</td></tr>");
-echo ("<tr><th>".$distance8."</th><td>" . $dropArray[7]."</td></tr>");
-echo ("<tr><th>".$distance9."</th><td>" . $dropArray[8]."</td></tr>");
-echo ("<tr><th>".$distance10."</th><td>" . $dropArray[9]."</td></tr>");
-echo ("<tr><th>".$distance11."</th><td>" . $dropArray[10]."</td></tr>");
-echo ("<tr><th>".$distance12."</th><td>" . $dropArray[11]."</td></tr>");
-echo ("<tr><th>".$distance13."</th><td>" . $dropArray[12]."</td></tr>");
-echo ("<tr><th>".$distance14."</th><td>" . $dropArray[13]."</td></tr>");
-echo ("<tr><th>".$distance15."</th><td>" . $dropArray[14]."</td></tr>");
-echo ("<tr><th>".$distance16."</th><td>" . $dropArray[15]."</td></tr>");
-echo ("<tr><th>".$distance17."</th><td>" . $dropArray[16]."</td></tr>");
-
-echo ("</table>");
-
-echo ("<table>");
-
-echo ("<caption>Velocity</caption>");
-echo ("<tr><td>" . $velocityArray[0]."</td></tr>");
-echo ("<tr><td>" . $velocityArray[1]."</td></tr>");
-echo ("<tr><td>" . $velocityArray[2]."</td></tr>");
-echo ("<tr><td>" . $velocityArray[3]."</td></tr>");
-echo ("<tr><td>" . $velocityArray[4]."</td></tr>");
-echo ("<tr><td>" . $velocityArray[5]."</td></tr>");
-echo ("<tr><td>" . $velocityArray[6]."</td></tr>");
-echo ("<tr><td>" . $velocityArray[7]."</td></tr>");
-echo ("<tr><td>" . $velocityArray[8]."</td></tr>");
-echo ("<tr><td>" . $velocityArray[9]."</td></tr>");
-echo ("<tr><td>" . $velocityArray[10]."</td></tr>");
-echo ("<tr><td>" . $velocityArray[11]."</td></tr>");
-echo ("<tr><td>" . $velocityArray[12]."</td></tr>");
-echo ("<tr><td>" . $velocityArray[13]."</td></tr>");
-echo ("<tr><td>" . $velocityArray[14]."</td></tr>");
-echo ("<tr><td>" . $velocityArray[15]."</td></tr>");
-echo ("<tr><td>" . $velocityArray[16]."</td></tr>");
-
-
-
-echo ("</table>");
-echo ("<table>");
-
-echo ("<caption>Wind </caption>");
-echo ("<tr><td>" . $windArray[0]."</td></tr>");
-echo ("<tr><td>" . $windArray[1]."</td></tr>");
-echo ("<tr><td>" . $windArray[2]."</td></tr>");
-echo ("<tr><td>" . $windArray[3]."</td></tr>");
-echo ("<tr><td>" . $windArray[4]."</td></tr>");
-echo ("<tr><td>" . $windArray[5]."</td></tr>");
-echo ("<tr><td>" . $windArray[6]."</td></tr>");
-echo ("<tr><td>" . $windArray[7]."</td></tr>");
-echo ("<tr><td>" . $windArray[8]."</td></tr>");
-echo ("<tr><td>" . $windArray[9]."</td></tr>");
-echo ("<tr><td>" . $windArray[10]."</td></tr>");
-echo ("<tr><td>" . $windArray[11]."</td></tr>");
-echo ("<tr><td>" . $windArray[12]."</td></tr>");
-echo ("<tr><td>" . $windArray[13]."</td></tr>");
-echo ("<tr><td>" . $windArray[14]."</td></tr>");
-echo ("<tr><td>" . $windArray[15]."</td></tr>");
-echo ("<tr><td>" . $windArray[16]."</td></tr>");
-
-echo ("</table>");
 
 
 ?>
