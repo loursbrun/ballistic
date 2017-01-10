@@ -23,25 +23,6 @@
 
 
 
-// Array distances step
-$distance1 = $start_distance;
-$distance2 = $start_distance + $range_increment * 1 ;
-$distance3 = $start_distance + $range_increment * 2 ;
-$distance4 = $start_distance + $range_increment * 3 ;
-$distance5 = $start_distance + $range_increment * 4 ;
-$distance6 = $start_distance + $range_increment * 5 ;
-$distance7 = $start_distance + $range_increment * 6 ;
-$distance8 = $start_distance + $range_increment * 7 ;
-$distance9 = $start_distance + $range_increment * 8 ;
-$distance10 = $start_distance + $range_increment * 9 ;
-$distance11 = $start_distance + $range_increment * 10 ;
-$distance12 = $start_distance + $range_increment * 11 ;
-$distance13 = $start_distance + $range_increment * 12 ;
-$distance14 = $start_distance + $range_increment * 13 ;
-$distance15 = $start_distance + $range_increment * 14 ;
-$distance16 = $start_distance + $range_increment * 15 ;
-$distance17 = $start_distance + $range_increment * 16 ;
-
 
 
 // Velocity
