@@ -212,7 +212,7 @@ namespace balistic
 			E[52] = -2.90704;
 			E[53] = -2.57414;
 			E[54] = -2.29123;
-			Console.WriteLine ("E :---------" + E[54] );
+			//Console.WriteLine ("E :---------" + E[54] );
 
 			// F
 			Double[] F = new Double[55]; 
@@ -238,7 +238,7 @@ namespace balistic
 			F[52]= 0.000348885;
 			F[53]= 0.000310524;
 			F[54]= 0.000257709;
-			Console.WriteLine ("F :---------" + F[54] );
+			//Console.WriteLine ("F :---------" + F[54] );
 
 
 			// G
@@ -265,7 +265,7 @@ namespace balistic
 			G[52]= 1.36656;
 			G[53]= 0.974457;
 			G[54]= 0.670381;
-			Console.WriteLine ("G :---------" + G[54] );
+			//Console.WriteLine ("G :---------" + G[54] );
 
 			// H
 			Double[] H = new Double[55]; 
@@ -291,7 +291,7 @@ namespace balistic
 			H[52]= -0.000897071;
 			H[53]= -0.0006880031;
 			H[54]= -0.000540083;
-			Console.WriteLine ("H :---------" + H[54] );
+			//Console.WriteLine ("H :---------" + H[54] );
 
 
 
@@ -320,7 +320,7 @@ namespace balistic
 			I[52]= 0.000000245908;
 			I[53]= 0.000000174925;
 			I[54]= 0.000000124357;
-			Console.WriteLine ("I :---------" + I[54] );
+			//Console.WriteLine ("I :---------" + I[54] );
 
 
 
@@ -348,7 +348,7 @@ namespace balistic
 			R[52]=0;
 			R[53]=0;
 			R[54]=0;
-			Console.WriteLine ("R :---------" + R[43] );
+			//Console.WriteLine ("R :---------" + R[43] );
 
 
 
@@ -378,7 +378,7 @@ namespace balistic
 			S[52]= 0;
 			S[53]= 0;
 			S[54]= 0;
-			Console.WriteLine ("S :---------" + S[43] );
+			//Console.WriteLine ("S :---------" + S[43] );
 
 
 
@@ -406,7 +406,7 @@ namespace balistic
 			T[52]= 0;
 			T[53]= 0;
 			T[54]= 0;
-			Console.WriteLine ("T :---------" + T[43] );
+			//Console.WriteLine ("T :---------" + T[43] );
 
 
 
@@ -435,7 +435,7 @@ namespace balistic
 			U[52]= 0;
 			U[53]= 0;
 			U[54]= 0;
-			Console.WriteLine ("U :---------" + U[43] );
+			//Console.WriteLine ("U :---------" + U[43] );
 
 
 
@@ -461,9 +461,38 @@ namespace balistic
 		
 			//Console.WriteLine ("D19 :---------" + D[19] );
 
+			//L[33] = D[array_search(S[33], C)] ; M[33] = E[array_search(S[33], C)] ; N[33] = F[array_search(S[33], C)] ; O[33] = G[array_search(S[33], C)] ;  P[33] = H[array_search(S[33], C)] ;  Q[33] = I[array_search(S[33], C)] ; 
 
 
 
+			Double[] L = new Double[55]; 
+			Double[] M = new Double[55]; 
+			Double[] N = new Double[55]; 
+			Double[] O = new Double[55]; 
+			Double[] P = new Double[55]; 
+			Double[] Q = new Double[55]; 
+
+
+
+			L[33] = D[Array.IndexOf(C, S[33])];
+			M[33] = E[Array.IndexOf(C, S[33])];
+			N[33] = F[Array.IndexOf(C, S[33])];
+			O[33] = G[Array.IndexOf(C, S[33])];
+			P[33] = H[Array.IndexOf(C, S[33])];
+			Q[33] = I[Array.IndexOf(C, S[33])];
+			L[34] = 0;
+
+
+			Console.WriteLine ("L33 :---------" + L[33] );
+			Console.WriteLine ("M33 :---------" + M[33] );
+			Console.WriteLine ("N33 :---------" + N[33] );
+			Console.WriteLine ("O33 :---------" + O[33] );
+			Console.WriteLine ("P33 :---------" + P[33] );
+			Console.WriteLine ("Q33 :---------" + Q[33] );
+		
+
+
+			// Array L   - AS
 
 
 
