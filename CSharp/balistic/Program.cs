@@ -23,8 +23,8 @@ namespace balistic
 	
 
 			int velocity = 2900;                    // fps
-			int bullet_weight = 250;                // gr
-			float ballisticCoefficient = 0.350f ;
+			int bullet_weight = 135;                // gr
+			float ballisticCoefficient = 0.3f ;
 			float startDistance = 100;
 			int rangeIncrement = 100;
 			int altitude = 0;                       //ft
@@ -470,7 +470,8 @@ namespace balistic
 			Double[] N = new Double[55]; 
 			Double[] O = new Double[55]; 
 			Double[] P = new Double[55]; 
-			Double[] Q = new Double[55]; 
+			Double[] Q = new Double[55];
+			Double[] J = new Double[55];
 
 
 
@@ -480,21 +481,45 @@ namespace balistic
 			O[33] = G[Array.IndexOf(C, S[33])];
 			P[33] = H[Array.IndexOf(C, S[33])];
 			Q[33] = I[Array.IndexOf(C, S[33])];
+
 			L[34] = 0;
 
 
-			Console.WriteLine ("L33 :---------" + L[33] );
-			Console.WriteLine ("M33 :---------" + M[33] );
-			Console.WriteLine ("N33 :---------" + N[33] );
-			Console.WriteLine ("O33 :---------" + O[33] );
-			Console.WriteLine ("P33 :---------" + P[33] );
-			Console.WriteLine ("Q33 :---------" + Q[33] );
+			//Console.WriteLine ("L33 :---------" + L[33] );
+			//Console.WriteLine ("M33 :---------" + M[33] );
+			//Console.WriteLine ("N33 :---------" + N[33] );
+			//Console.WriteLine ("O33 :---------" + O[33] );
+			//Console.WriteLine ("P33 :---------" + P[33] );
+			//Console.WriteLine ("Q33 :---------" + Q[33] );
 		
-
-
 		
-			int i = 0;            
+			//int i = 0;  
 
+			J[50] = O[33] + P[33] * ( B[13] - S[33]) + Q[33] * (B[13] - S[33] ) * 2;
+			J[51] = L[33] + M[33] * ( B[13] - S[33]) + N[33] * (B[13] - S[33] ) * 2;
+			J[53] = 1-0.0000359596 * B[18] + 0.00000000047741 * B[18] * 2;
+			J[54] = 518.67 /(459.67 + B[19]);
+			J[52] = J[53] * J[54];
+			J[33] = J[51] + 3 * D[5] / (B[15] / J[54]);
+			J[34] = J[51] + 3 * D[6] / (B[15] / J[54]);
+			J[35] = J[51] + 3 * D[7] / (B[15] / J[54]);
+			J[36] = J[51] + 3 * D[8] / (B[15] / J[54]);
+			J[37] = J[51] + 3 * D[9] / (B[15] / J[54]);
+			J[38] = J[51] + 3 * D[10] / (B[15] / J[54]);
+			J[39] = J[51] + 3 * D[11] / (B[15] / J[54]);
+			J[40] = J[51] + 3 * D[12] / (B[15] / J[54]);
+			J[41] = J[51] + 3 * D[13] / (B[15] / J[54]);
+			J[42] = J[51] + 3 * D[14] / (B[15] / J[54]);
+			J[43] = J[51] + 3 * D[15] / (B[15] / J[54]);
+			J[44] = J[51] + 3 * D[16] / (B[15] / J[54]);
+			J[45] = J[51] + 3 * D[17] / (B[15] / J[54]);
+			J[46] = J[51] + 3 * D[18] / (B[15] / J[54]);
+			J[47] = J[51] + 3 * D[19] / (B[15] / J[54]);
+			J[48] = J[51] + 3 * D[20] / (B[15] / J[54]);
+			J[49] = J[51] + 3 * D[21] / (B[15] / J[54]);
+
+			//Console.WriteLine ("J[50] :---------" + B[15] );
+			//Console.WriteLine ("J[50] :---------" + J[45] );
 
 
 
