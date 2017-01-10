@@ -8,12 +8,11 @@
  $bullet_weight = 125;                // gr
  $ballistic_coefficient = 0.326 ;
  $start_distance = 100;
- $range_increment = 50;
+ $range_increment = 100;
  $altitude = 0;                       //ft
  $temperature = 65;                   // F
  $scope_height = 1.09;                // inch
  $zero_range = 200 ;                  //yds
-
 
 
 
@@ -993,6 +992,48 @@ $D = [
 
 
 
+
+// Vent
+$wind1 = 176 * ($T[33] - (3 * $distance1) / $velocity)/2 ;
+$wind2 = 176 * ($T[34] - (3 * $distance2) / $velocity)/2 ;
+$wind3 = 176 * ($T[35] - (3 * $distance3) / $velocity)/2 ;
+$wind4 = 176 * ($T[36] - (3 * $distance4) / $velocity)/2 ;
+$wind5 = 176 * ($T[37] - (3 * $distance5) / $velocity)/2 ;
+$wind6 = 176 * ($T[38] - (3 * $distance6) / $velocity)/2 ;
+$wind7 = 176 * ($T[39] - (3 * $distance7) / $velocity)/2 ;
+$wind8 = 176 * ($T[40] - (3 * $distance8) / $velocity)/2 ;
+$wind9 = 176 * ($T[41] - (3 * $distance9) / $velocity)/2 ;
+$wind10 = 176 * ($T[42] - (3 * $distance10) / $velocity)/2 ;
+$wind11 = 176 * ($T[43] - (3 * $distance10) / $velocity)/2 ;
+$wind12 = 176 * ($T[44] - (3 * $distance10) / $velocity)/2 ;
+$wind13 = 176 * ($T[45] - (3 * $distance10) / $velocity)/2 ;
+$wind14 = 176 * ($T[46] - (3 * $distance10) / $velocity)/2 ;
+$wind15 = 176 * ($T[47] - (3 * $distance10) / $velocity)/2 ;
+$wind16 = 176 * ($T[48] - (3 * $distance10) / $velocity)/2 ;
+$wind17 = 176 * ($T[49] - (3 * $distance10) / $velocity)/2 ;
+
+
+
+
+
+
+
+
+
+/*echo("<br>distance:".$distance10);
+echo("<br>vent:".$T[42]);
+echo("<br>velocity:".$velocity);
+echo("<br>vent:".$wind10);
+
+
+$wind15 = 176 * ($T[47] - (3 * $distance15) / $velocity)/2 ;
+echo("<br>distance:".$distance15);
+echo("<br>vent:".$T[47]);
+echo("<br>velocity:".$velocity);
+echo("<br>vent:".$wind15);*/
+
+
+
 // Resultat
 echo("<style>table, th, td {  border: 1px solid black;  border-collapse: collapse;  }  th, td {  padding: 5px;  text-align: left;  }</style>");
 echo("<style>table { display: inline-block; vertical-align: top; margin-left: 20px; }</style>");
@@ -1036,9 +1077,54 @@ echo ("<tr><th>".$distance15."</th><td>" . $G[19]."</td></tr>");
 echo ("<tr><th>".$distance16."</th><td>" . $G[20]."</td></tr>");
 echo ("<tr><th>".$distance17."</th><td>" . $G[21]."</td></tr>");
 
+echo ("</table>");
+
+echo ("<table>");
+
+echo ("<caption>Velocity</caption>");
+echo ("<tr><td>" . $E[5]."</td></tr>");
+echo ("<tr><td>" . $E[6]."</td></tr>");
+echo ("<tr><td>" . $E[7]."</td></tr>");
+echo ("<tr><td>" . $E[8]."</td></tr>");
+echo ("<tr><td>" . $E[9]."</td></tr>");
+echo ("<tr><td>" . $E[10]."</td></tr>");
+echo ("<tr><td>" . $E[11]."</td></tr>");
+echo ("<tr><td>" . $E[12]."</td></tr>");
+echo ("<tr><td>" . $E[13]."</td></tr>");
+echo ("<tr><td>" . $E[14]."</td></tr>");
+echo ("<tr><td>" . $E[15]."</td></tr>");
+echo ("<tr><td>" . $E[16]."</td></tr>");
+echo ("<tr><td>" . $E[17]."</td></tr>");
+echo ("<tr><td>" . $E[18]."</td></tr>");
+echo ("<tr><td>" . $E[19]."</td></tr>");
+echo ("<tr><td>" . $E[20]."</td></tr>");
+echo ("<tr><td>" . $E[21]."</td></tr>");
+
 
 echo ("</table>");
 
+echo ("<table>");
+
+echo ("<caption>Vent (5 mph)</caption>");
+echo ("<tr><td>" . $wind1."</td></tr>");
+echo ("<tr><td>" . $wind2."</td></tr>");
+echo ("<tr><td>" . $wind3."</td></tr>");
+echo ("<tr><td>" . $wind4."</td></tr>");
+echo ("<tr><td>" . $wind5."</td></tr>");
+echo ("<tr><td>" . $wind6."</td></tr>");
+echo ("<tr><td>" . $wind7."</td></tr>");
+echo ("<tr><td>" . $wind8."</td></tr>");
+echo ("<tr><td>" . $wind9."</td></tr>");
+echo ("<tr><td>" . $wind10."</td></tr>");
+echo ("<tr><td>" . $wind11."</td></tr>");
+echo ("<tr><td>" . $wind12."</td></tr>");
+echo ("<tr><td>" . $wind13."</td></tr>");
+echo ("<tr><td>" . $wind14."</td></tr>");
+echo ("<tr><td>" . $wind15."</td></tr>");
+echo ("<tr><td>" . $wind16."</td></tr>");
+echo ("<tr><td>" . $wind17."</td></tr>");
+
+echo ("</table>");
 
 
 ?>
