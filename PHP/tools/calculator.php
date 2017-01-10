@@ -2,17 +2,25 @@
 
 
 
- $title = "Sniperspirit";
+
 
  $velocity = 2900;                    // fps
  $bullet_weight = 250;                // gr
- $ballistic_coefficient = 0.8 ;
+ $ballistic_coefficient = 0.350 ;
  $start_distance = 100;
  $range_increment = 100;
  $altitude = 0;                       //ft
  $temperature = 65;                   // F
  $scope_height = 1.09;                // inch
  $zero_range = 200 ;                  //yds
+
+
+
+
+
+
+
+
 
 
 
@@ -994,23 +1002,23 @@ $D = [
 
 
 // Vent
-$wind1 = 176 * ($T[33] - (3 * $distance1) / $velocity)/2  * (1 - $ballistic_coefficient/2 ) ;
-$wind2 = 176 * ($T[34] - (3 * $distance2) / $velocity)/2 * (1 - $ballistic_coefficient/2 ) ;
-$wind3 = 176 * ($T[35] - (3 * $distance3) / $velocity)/2 * (1 - $ballistic_coefficient/2 ) ;
-$wind4 = 176 * ($T[36] - (3 * $distance4) / $velocity)/2 * (1 - $ballistic_coefficient/2 ) ;
-$wind5 = 176 * ($T[37] - (3 * $distance5) / $velocity)/2 * (1 - $ballistic_coefficient/2 ) ;
-$wind6 = 176 * ($T[38] - (3 * $distance6) / $velocity)/2 * (1 - $ballistic_coefficient/2 ) ;
-$wind7 = 176 * ($T[39] - (3 * $distance7) / $velocity)/2 * (1 - $ballistic_coefficient/2 ) ;
-$wind8 = 176 * ($T[40] - (3 * $distance8) / $velocity)/2 * (1 - $ballistic_coefficient/2 ) ;
-$wind9 = 176 * ($T[41] - (3 * $distance9) / $velocity)/2 * (1 - $ballistic_coefficient/2 ) ;
-$wind10 = 176 * ($T[42] - (3 * $distance10) / $velocity)/2 * (1 - $ballistic_coefficient/2 ) ;
-$wind11 = 176 * ($T[43] - (3 * $distance10) / $velocity)/2 * (1 - $ballistic_coefficient/2 ) ;
-$wind12 = 176 * ($T[44] - (3 * $distance10) / $velocity)/2 * (1 - $ballistic_coefficient/2 ) ;
-$wind13 = 176 * ($T[45] - (3 * $distance10) / $velocity)/2 * (1 - $ballistic_coefficient/2 ) ;
-$wind14 = 176 * ($T[46] - (3 * $distance10) / $velocity)/2 * (1 - $ballistic_coefficient/2 ) ;
-$wind15 = 176 * ($T[47] - (3 * $distance10) / $velocity)/2 * (1 - $ballistic_coefficient/2 ) ;
-$wind16 = 176 * ($T[48] - (3 * $distance10) / $velocity)/2 * (1 - $ballistic_coefficient/2 ) ;
-$wind17 = 176 * ($T[49] - (3 * $distance10) / $velocity)/2 * (1 - $ballistic_coefficient/2 )   ;
+$wind1 = round(176 * ($T[33] - (3 * $distance1) / $velocity)/2  * (1 - $ballistic_coefficient/2 )) ;
+$wind2 = round(176 * ($T[34] - (3 * $distance2) / $velocity)/2 * (1 - $ballistic_coefficient/2 )) ;
+$wind3 = round(176 * ($T[35] - (3 * $distance3) / $velocity)/2 * (1 - $ballistic_coefficient/2 ));
+$wind4 = round(176 * ($T[36] - (3 * $distance4) / $velocity)/2 * (1 - $ballistic_coefficient/2 )) ;
+$wind5 = round(176 * ($T[37] - (3 * $distance5) / $velocity)/2 * (1 - $ballistic_coefficient/2 )) ;
+$wind6 = round(176 * ($T[38] - (3 * $distance6) / $velocity)/2 * (1 - $ballistic_coefficient/2 )) ;
+$wind7 = round(176 * ($T[39] - (3 * $distance7) / $velocity)/2 * (1 - $ballistic_coefficient/2 )) ;
+$wind8 = round(176 * ($T[40] - (3 * $distance8) / $velocity)/2 * (1 - $ballistic_coefficient/2 )) ;
+$wind9 = round(176 * ($T[41] - (3 * $distance9) / $velocity)/2 * (1 - $ballistic_coefficient/2 )) ;
+$wind10 = round(176 * ($T[42] - (3 * $distance10) / $velocity)/2 * (1 - $ballistic_coefficient/2 )) ;
+$wind11 = round(176 * ($T[43] - (3 * $distance10) / $velocity)/2 * (1 - $ballistic_coefficient/2 )) ;
+$wind12 = round(176 * ($T[44] - (3 * $distance10) / $velocity)/2 * (1 - $ballistic_coefficient/2 )) ;
+$wind13 = round(176 * ($T[45] - (3 * $distance10) / $velocity)/2 * (1 - $ballistic_coefficient/2 )) ;
+$wind14 = round(176 * ($T[46] - (3 * $distance10) / $velocity)/2 * (1 - $ballistic_coefficient/2 )) ;
+$wind15 = round(176 * ($T[47] - (3 * $distance10) / $velocity)/2 * (1 - $ballistic_coefficient/2 )) ;
+$wind16 = round(176 * ($T[48] - (3 * $distance10) / $velocity)/2 * (1 - $ballistic_coefficient/2 )) ;
+$wind17 = round(176 * ($T[49] - (3 * $distance10) / $velocity)/2 * (1 - $ballistic_coefficient/2 ))   ;
 
 
 
@@ -1035,8 +1043,9 @@ echo("<br>vent:".$wind15);*/
 
 
 // Resultat
-echo("<style>table, th, td {  border: 1px solid black;  border-collapse: collapse;  }  th, td {  padding: 5px;  text-align: left;  }</style>");
+echo("<style>table, th, td {  border: 1px solid black;  border-collapse: collapse; min-width: 50px }  th, td {  padding: 5px;  text-align: left;  }</style>");
 echo("<style>table { display: inline-block; vertical-align: top; margin-left: 20px; }</style>");
+echo("<style>caption { background-color: #c0c0c0 }</style>");
 
 
 
@@ -1102,10 +1111,9 @@ echo ("<tr><td>" . $E[21]."</td></tr>");
 
 
 echo ("</table>");
-
 echo ("<table>");
 
-echo ("<caption>Vent (5 mph)</caption>");
+echo ("<caption>Wind </caption>");
 echo ("<tr><td>" . $wind1."</td></tr>");
 echo ("<tr><td>" . $wind2."</td></tr>");
 echo ("<tr><td>" . $wind3."</td></tr>");
