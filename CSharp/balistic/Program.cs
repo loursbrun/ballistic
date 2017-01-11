@@ -1022,7 +1022,51 @@ namespace balistic
 			G[20] = Math.Round( -12 * U[48] * T[48] * T[48] , 1);
 			G[21] = Math.Round( -12 * U[49] * T[49] * T[49] , 1);
 
-			//Console.WriteLine (G[21]);
+
+
+
+
+
+
+
+			// Vent
+			Double[] windArray = new Double[55]; 
+			U[33]= 16.076685025;
+			U[34]= 15.5570633090143;
+
+			windArray[0] = Math.Round(176 * (T[33] - (3 * distanceArray[0]) / velocity)/2  * (1 - ballisticCoefficient/2 )) ;
+			windArray[1] = Math.Round(176 * (T[34] - (3 * distanceArray[1]) / velocity)/2 * (1 - ballisticCoefficient/2 )) ;
+			windArray[2] = Math.Round(176 * (T[35] - (3 * distanceArray[2]) / velocity)/2 * (1 - ballisticCoefficient/2 ));
+			windArray[3] = Math.Round(176 * (T[36] - (3 * distanceArray[3]) / velocity)/2 * (1 - ballisticCoefficient/2 )) ;
+			windArray[4] = Math.Round(176 * (T[37] - (3 * distanceArray[4]) / velocity)/2 * (1 - ballisticCoefficient/2 )) ;
+			windArray[5] = Math.Round(176 * (T[38] - (3 * distanceArray[5]) / velocity)/2 * (1 - ballisticCoefficient/2 )) ;
+			windArray[6] = Math.Round(176 * (T[39] - (3 * distanceArray[6]) / velocity)/2 * (1 - ballisticCoefficient/2 )) ;
+			windArray[7] = Math.Round(176 * (T[40] - (3 * distanceArray[7]) / velocity)/2 * (1 - ballisticCoefficient/2 )) ;
+			windArray[8] = Math.Round(176 * (T[41] - (3 * distanceArray[8]) / velocity)/2 * (1 - ballisticCoefficient/2 )) ;
+			windArray[9] = Math.Round(176 * (T[42] - (3 * distanceArray[9]) / velocity)/2 * (1 - ballisticCoefficient/2 )) ;
+			windArray[10] = Math.Round(176 * (T[43] - (3 * distanceArray[10]) / velocity)/2 * (1 - ballisticCoefficient/2 )) ;
+			windArray[11] = Math.Round(176 * (T[44] - (3 * distanceArray[11]) / velocity)/2 * (1 - ballisticCoefficient/2 )) ;
+			windArray[12] = Math.Round(176 * (T[45] - (3 * distanceArray[12]) / velocity)/2 * (1 - ballisticCoefficient/2 )) ;
+			windArray[13] = Math.Round(176 * (T[46] - (3 * distanceArray[13]) / velocity)/2 * (1 - ballisticCoefficient/2 )) ;
+			windArray[14] = Math.Round(176 * (T[47] - (3 * distanceArray[14]) / velocity)/2 * (1 - ballisticCoefficient/2 )) ;
+			windArray[15] = Math.Round(176 * (T[48] - (3 * distanceArray[15]) / velocity)/2 * (1 - ballisticCoefficient/2 )) ;
+			windArray[16] = Math.Round(176 * (T[49] - (3 * distanceArray[16]) / velocity)/2 * (1 - ballisticCoefficient/2 ))   ;
+
+
+
+
+
+
+
+
+			Console.WriteLine (windArray[6]);
+
+
+
+
+
+
+
 
 
 

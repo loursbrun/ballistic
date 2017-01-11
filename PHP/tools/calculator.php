@@ -1197,7 +1197,7 @@ $G[21] = round( -12 * $U[49] * $T[49] ** 2 , 1);
 
 
 
-echo($G[21]);
+
 
 
 
@@ -1350,6 +1350,8 @@ $windArray = [
     16 => $wind17
 ];
 
+
+echo($windArray[6]);
 
 // Drop Array
 
