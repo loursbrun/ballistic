@@ -534,6 +534,31 @@ namespace balistic
 
 
 
+			L[34] = 0 ; 
+			int i = 0;  
+			i = 0 ;
+
+			while(i < 22)
+			{
+				if(B[33 + i] >= 1 / J[33]){break;}
+				i++;
+				L[34] = D[i+32];
+				M[34] = E[i+32];
+				N[34] = F[i+32];
+				O[34] = G[i+32];
+				P[34] = H[i+32];
+				Q[34] = I[i+32];
+			}
+
+			Console.WriteLine (L[34]);
+			Console.WriteLine (M[34]);
+			Console.WriteLine (N[34]);
+			Console.WriteLine (O[34]);
+			Console.WriteLine (P[34]);
+			Console.WriteLine (Q[34]);
+
+
+
 
 
 		}
