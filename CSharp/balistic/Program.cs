@@ -629,14 +629,81 @@ namespace balistic
 				Q[37] = I[i+32];
 			}
 
-			Console.WriteLine (L[37]);
-			Console.WriteLine (M[37]);
-			Console.WriteLine (N[37]);
-			Console.WriteLine (O[37]);
-			Console.WriteLine (P[37]);
-			Console.WriteLine (Q[37]);
+			/* ==              L38                    */
 
+			L[38] = 0 ;  
+			i = 0 ;
 
+			while(i < 22)
+			{
+				if(B[33 + i] >= 1 / J[37]){break;}
+				i++;
+				L[38] = D[i+32];
+				M[38] = E[i+32];
+				N[38] = F[i+32];
+				O[38] = G[i+32];
+				P[38] = H[i+32];
+				Q[38] = I[i+32];
+			}
+
+			/* ==              L39                    */
+
+			L[39] = 0 ;  
+			i = 0 ;
+
+			while(i < 22)
+			{
+				if(B[33 + i] >= 1 / J[38]){break;}
+				i++;
+				L[39] = D[i+32];
+				M[39] = E[i+32];
+				N[39] = F[i+32];
+				O[39] = G[i+32];
+				P[39] = H[i+32];
+				Q[39] = I[i+32];
+			}
+
+			/* ==              L40                    */
+
+			L[40] = 0 ;  
+			i = 0 ;
+
+			while(i < 22)
+			{
+				if(B[33 + i] >= 1 / J[39]){break;}
+				i++;
+				L[40] = D[i+32];
+				M[40] = E[i+32];
+				N[40] = F[i+32];
+				O[40] = G[i+32];
+				P[40] = H[i+32];
+				Q[40] = I[i+32];
+			}
+				
+
+			/* ==              L41                    */
+
+			L[41] = 0 ;  
+			i = 0 ;
+
+			while(i < 22)
+			{
+				if(B[33 + i] >= 1 / J[40]){break;}
+				i++;
+				L[41] = D[i+32];
+				M[41] = E[i+32];
+				N[41] = F[i+32];
+				O[41] = G[i+32];
+				P[41] = H[i+32];
+				Q[41] = I[i+32];
+			}
+
+			Console.WriteLine (L[41]);
+			Console.WriteLine (M[41]);
+			Console.WriteLine (N[41]);
+			Console.WriteLine (O[41]);
+			Console.WriteLine (P[41]);
+			Console.WriteLine (Q[41]);
 
 
 
