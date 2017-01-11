@@ -1351,7 +1351,7 @@ $windArray = [
 ];
 
 
-echo($windArray[6]);
+
 
 // Drop Array
 
@@ -1375,7 +1375,7 @@ $dropArray = [
     16 => round(abs($G[21]))
 ];
 
-
+echo($dropArray[10]);
 // Velocity
 
 $velocityArray = [

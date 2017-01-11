@@ -1030,10 +1030,7 @@ namespace balistic
 
 
 			// Vent
-			Double[] windArray = new Double[55]; 
-			U[33]= 16.076685025;
-			U[34]= 15.5570633090143;
-
+			Double[] windArray = new Double[17]; 
 			windArray[0] = Math.Round(176 * (T[33] - (3 * distanceArray[0]) / velocity)/2  * (1 - ballisticCoefficient/2 )) ;
 			windArray[1] = Math.Round(176 * (T[34] - (3 * distanceArray[1]) / velocity)/2 * (1 - ballisticCoefficient/2 )) ;
 			windArray[2] = Math.Round(176 * (T[35] - (3 * distanceArray[2]) / velocity)/2 * (1 - ballisticCoefficient/2 ));
@@ -1052,14 +1049,31 @@ namespace balistic
 			windArray[15] = Math.Round(176 * (T[48] - (3 * distanceArray[15]) / velocity)/2 * (1 - ballisticCoefficient/2 )) ;
 			windArray[16] = Math.Round(176 * (T[49] - (3 * distanceArray[16]) / velocity)/2 * (1 - ballisticCoefficient/2 ))   ;
 
+			// Drop
+			Double[] dropArray = new Double[17]; 
+			dropArray[0] = Math.Round(Math.Abs(G[5]));
+			dropArray[1] = Math.Round(Math.Abs(G[6]));
+			dropArray[2] = Math.Round(Math.Abs(G[7]));
+			dropArray[3] = Math.Round(Math.Abs(G[8]));
+			dropArray[4] = Math.Round(Math.Abs(G[9]));
+			dropArray[5] = Math.Round(Math.Abs(G[10]));
+			dropArray[6] = Math.Round(Math.Abs(G[11]));
+			dropArray[7] = Math.Round(Math.Abs(G[12]));
+			dropArray[8] = Math.Round(Math.Abs(G[13]));
+			dropArray[9] = Math.Round(Math.Abs(G[14]));
+			dropArray[10] = Math.Round(Math.Abs(G[15]));
+			dropArray[11] = Math.Round(Math.Abs(G[16]));
+			dropArray[12] = Math.Round(Math.Abs(G[17]));
+			dropArray[13] = Math.Round(Math.Abs(G[18]));
+			dropArray[14] = Math.Round(Math.Abs(G[19]));
+			dropArray[15] = Math.Round(Math.Abs(G[20]));
+			dropArray[16] = Math.Round(Math.Abs(G[21]));
 
 
 
 
 
-
-
-			Console.WriteLine (windArray[6]);
+			Console.WriteLine (dropArray[10]);
 
 
 
