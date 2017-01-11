@@ -882,8 +882,27 @@ namespace balistic
 
 
 			E[5] = Math.Round(S[33] + (- M[33] - Math.Sqrt(M[33] * M[33] - 4 * N[33]*(L[33]-J[33]))) / (2 * N[33])) ;
+			E[6] = Math.Round(S[34] + (- M[34] - Math.Sqrt(M[34] * M[34] - 4 * N[34]*(L[34]-J[34]))) / (2 * N[34])) ;
+			E[7] = Math.Round(S[35] + (- M[35] - Math.Sqrt(M[35] * M[35] - 4 * N[35]*(L[35]-J[35]))) / (2 * N[35])) ;
+			E[8] = Math.Round(S[36] + (- M[36] - Math.Sqrt(M[36] * M[36] - 4 * N[36]*(L[36]-J[36]))) / (2 * N[36])) ;
+			E[9] = Math.Round(S[37] + (- M[37] - Math.Sqrt(M[37] * M[37] - 4 * N[37]*(L[37]-J[37]))) / (2 * N[37])) ;
+			E[10] = Math.Round(S[38] + (- M[38] - Math.Sqrt(M[38] * M[38] - 4 * N[38]*(L[38]-J[38]))) / (2 * N[38])) ;
+			E[11] = Math.Round(S[39] + (- M[39] - Math.Sqrt(M[39] * M[39] - 4 * N[39]*(L[39]-J[39]))) / (2 * N[39])) ;
+			E[12] = Math.Round(S[40] + (- M[40] - Math.Sqrt(M[40] * M[40] - 4 * N[40]*(L[40]-J[40]))) / (2 * N[40])) ;
+			E[13] = Math.Round(S[41] + (- M[41] - Math.Sqrt(M[41] * M[41] - 4 * N[41]*(L[41]-J[41]))) / (2 * N[41])) ;
+			E[14] = Math.Round(S[42] + (- M[42] - Math.Sqrt(M[42] * M[42] - 4 * N[42]*(L[42]-J[42]))) / (2 * N[42])) ;
+			E[15] = Math.Round(S[43] + (- M[43] - Math.Sqrt(M[43] * M[43] - 4 * N[43]*(L[43]-J[43]))) / (2 * N[43])) ;
+			E[16] = Math.Round(S[44] + (- M[44] - Math.Sqrt(M[44] * M[44] - 4 * N[44]*(L[44]-J[44]))) / (2 * N[44])) ;
+			E[17] = Math.Round(S[45] + (- M[45] - Math.Sqrt(M[45] * M[45] - 4 * N[45]*(L[45]-J[45]))) / (2 * N[45])) ;
+			E[18] = Math.Round(S[46] + (- M[46] - Math.Sqrt(M[46] * M[46] - 4 * N[46]*(L[46]-J[46]))) / (2 * N[46])) ;
+			E[19] = Math.Round(S[47] + (- M[47] - Math.Sqrt(M[47] * M[47] - 4 * N[47]*(L[47]-J[47]))) / (2 * N[47])) ;
+			E[20] = Math.Round(S[48] + (- M[48] - Math.Sqrt(M[48] * M[48] - 4 * N[48]*(L[48]-J[48]))) / (2 * N[48])) ;
+			E[21] = Math.Round(S[49] + (- M[49] - Math.Sqrt(M[49] * M[49] - 4 * N[49]*(L[49]-J[49]))) / (2 * N[49])) ;
 
-			Console.WriteLine (E[5] );
+
+			Console.WriteLine (E[19] );
+
+
 		}
 	}
 }
