@@ -532,7 +532,7 @@ namespace balistic
 			Q[33] = I[Array.IndexOf(C, S[33])];
 
 
-
+			/* ==              L34                    */
 
 			L[34] = 0 ; 
 			int i = 0;  
@@ -550,12 +550,91 @@ namespace balistic
 				Q[34] = I[i+32];
 			}
 
-			Console.WriteLine (L[34]);
+			/*
+		    Console.WriteLine (L[34]);
 			Console.WriteLine (M[34]);
 			Console.WriteLine (N[34]);
 			Console.WriteLine (O[34]);
 			Console.WriteLine (P[34]);
 			Console.WriteLine (Q[34]);
+			*/
+
+			/* ==              L35                    */
+
+			L[35] = 0 ;  
+			i = 0 ;
+
+			while(i < 22)
+			{
+				if(B[33 + i] >= 1 / J[34]){break;}
+				i++;
+				L[35] = D[i+32];
+				M[35] = E[i+32];
+				N[35] = F[i+32];
+				O[35] = G[i+32];
+				P[35] = H[i+32];
+				Q[35] = I[i+32];
+			}
+
+			/*
+			Console.WriteLine (L[35]);
+			Console.WriteLine (M[35]);
+			Console.WriteLine (N[35]);
+			Console.WriteLine (O[35]);
+			Console.WriteLine (P[35]);
+			Console.WriteLine (Q[35]);
+			*/
+
+			/* ==              L36                    */
+
+			L[36] = 0 ;  
+			i = 0 ;
+
+			while(i < 22)
+			{
+				if(B[33 + i] >= 1 / J[35]){break;}
+				i++;
+				L[36] = D[i+32];
+				M[36] = E[i+32];
+				N[36] = F[i+32];
+				O[36] = G[i+32];
+				P[36] = H[i+32];
+				Q[36] = I[i+32];
+			}
+
+			/*
+			Console.WriteLine (L[36]);
+			Console.WriteLine (M[36]);
+			Console.WriteLine (N[36]);
+			Console.WriteLine (O[36]);
+			Console.WriteLine (P[36]);
+			Console.WriteLine (Q[36]);
+			*/
+
+
+			/* ==              L37                    */
+
+			L[37] = 0 ;  
+			i = 0 ;
+
+			while(i < 22)
+			{
+				if(B[33 + i] >= 1 / J[36]){break;}
+				i++;
+				L[37] = D[i+32];
+				M[37] = E[i+32];
+				N[37] = F[i+32];
+				O[37] = G[i+32];
+				P[37] = H[i+32];
+				Q[37] = I[i+32];
+			}
+
+			Console.WriteLine (L[37]);
+			Console.WriteLine (M[37]);
+			Console.WriteLine (N[37]);
+			Console.WriteLine (O[37]);
+			Console.WriteLine (P[37]);
+			Console.WriteLine (Q[37]);
 
 
 
