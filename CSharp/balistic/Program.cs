@@ -946,7 +946,40 @@ namespace balistic
 			T[49] = ( B[15] / J[52] ) * ( R[49] - J[50] ) ;
 
 
-			Console.WriteLine (T[41]);
+
+
+
+			// Array S   - VB
+			S[33] = 0 ; 
+			i = 0 ; 
+			while ( i < 22) { 
+				if(C[33 + i] >= 1.1 *  B[13]){
+					break;
+				}  
+				i++;
+				S[33] = C[i+32] ;
+			};
+
+			S[34] = 0 ; i = 0 ; while ( i < 22) { if(B[33 + i] >= 1 / J[33]){break;}  i++; S[34] = C[i+32] ;};
+			S[35] = 0 ; i = 0 ; while ( i < 22) { if(B[33 + i] >= 1 / J[34]){break;}  i++; S[35] = C[i+32] ;};
+			S[36] = 0 ; i = 0 ; while ( i < 22) { if(B[33 + i] >= 1 / J[35]){break;}  i++; S[36] = C[i+32] ;};
+			S[37] = 0 ; i = 0 ; while ( i < 22) { if(B[33 + i] >= 1 / J[36]){break;}  i++; S[37] = C[i+32] ;};
+			S[38] = 0 ; i = 0 ; while ( i < 22) { if(B[33 + i] >= 1 / J[37]){break;}  i++; S[38] = C[i+32] ;};
+			S[39] = 0 ; i = 0 ; while ( i < 22) { if(B[33 + i] >= 1 / J[38]){break;}  i++; S[39] = C[i+32] ;};
+			S[40] = 0 ; i = 0 ; while ( i < 22) { if(B[33 + i] >= 1 / J[39]){break;}  i++; S[40] = C[i+32] ;};
+			S[41] = 0 ; i = 0 ; while ( i < 22) { if(B[33 + i] >= 1 / J[40]){break;}  i++; S[41] = C[i+32] ;};
+			S[42] = 0 ; i = 0 ; while ( i < 22) { if(B[33 + i] >= 1 / J[41]){break;}  i++; S[42] = C[i+32] ;};
+			S[43] = 0 ; i = 0 ; while ( i < 22) { if(B[33 + i] >= 1 / J[42]){break;}  i++; S[43] = C[i+32] ;};
+			S[44] = 0 ; i = 0 ; while ( i < 22) { if(B[33 + i] >= 1 / J[43]){break;}  i++; S[44] = C[i+32] ;};
+			S[45] = 0 ; i = 0 ; while ( i < 22) { if(B[33 + i] >= 1 / J[44]){break;}  i++; S[45] = C[i+32] ;};
+			S[46] = 0 ; i = 0 ; while ( i < 22) { if(B[33 + i] >= 1 / J[45]){break;}  i++; S[46] = C[i+32] ;};
+			S[47] = 0 ; i = 0 ; while ( i < 22) { if(B[33 + i] >= 1 / J[46]){break;}  i++; S[47] = C[i+32] ;};
+			S[48] = 0 ; i = 0 ; while ( i < 22) { if(B[33 + i] >= 1 / J[47]){break;}  i++; S[48] = C[i+32] ;};
+			S[49] = 0 ; i = 0 ; while ( i < 22) { if(B[33 + i] >= 1 / J[48]){break;}  i++; S[49] = C[i+32] ;};
+
+
+
+			Console.WriteLine (S[42]);
 
 
 
