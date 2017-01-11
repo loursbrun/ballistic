@@ -1070,10 +1070,30 @@ namespace balistic
 			dropArray[16] = Math.Round(Math.Abs(G[21]));
 
 
+			// Drop
+			Double[] velocityArray = new Double[17]; 
+			velocityArray[0] = E[5];
+			velocityArray[1] = E[6];
+			velocityArray[2] = E[7];
+			velocityArray[3] = E[8];
+			velocityArray[4] = E[9];
+			velocityArray[5] = E[10];
+			velocityArray[6] = E[11];
+			velocityArray[7] = E[12];
+			velocityArray[8] = E[13];
+			velocityArray[9] = E[14];
+			velocityArray[10] = E[15];
+			velocityArray[11] = E[16];
+			velocityArray[12] = E[17];
+			velocityArray[13] = E[18];
+			velocityArray[14] = E[19];
+			velocityArray[15] = E[20];
+			velocityArray[16] = E[21];
+		
 
 
 
-			Console.WriteLine (dropArray[10]);
+			Console.WriteLine (velocityArray[10]);
 
 
 

@@ -1375,7 +1375,7 @@ $dropArray = [
     16 => round(abs($G[21]))
 ];
 
-echo($dropArray[10]);
+
 // Velocity
 
 $velocityArray = [
@@ -1398,7 +1398,7 @@ $velocityArray = [
     16 => $E[21]
 ];
 
-
+echo($velocityArray[10]);
 
 
 
