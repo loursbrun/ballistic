@@ -698,12 +698,158 @@ namespace balistic
 				Q[41] = I[i+32];
 			}
 
-			Console.WriteLine (L[41]);
-			Console.WriteLine (M[41]);
-			Console.WriteLine (N[41]);
-			Console.WriteLine (O[41]);
-			Console.WriteLine (P[41]);
-			Console.WriteLine (Q[41]);
+	
+
+			/* ==              L42                    */
+
+			L[42] = 0 ;  
+			i = 0 ;
+
+			while(i < 22)
+			{
+				if(B[33 + i] >= 1 / J[41]){break;}
+				i++;
+				L[42] = D[i+32];
+				M[42] = E[i+32];
+				N[42] = F[i+32];
+				O[42] = G[i+32];
+				P[42] = H[i+32];
+				Q[42] = I[i+32];
+			}
+
+			/* ==              L43                    */
+
+			L[43] = 0 ;  
+			i = 0 ;
+
+			while(i < 22)
+			{
+				if(B[33 + i] >= 1 / J[42]){break;}
+				i++;
+				L[43] = D[i+32];
+				M[43] = E[i+32];
+				N[43] = F[i+32];
+				O[43] = G[i+32];
+				P[43] = H[i+32];
+				Q[43] = I[i+32];
+			}
+
+			/* ==              L44                    */
+
+			L[44] = 0 ;  
+			i = 0 ;
+
+			while(i < 22)
+			{
+				if(B[33 + i] >= 1 / J[43]){break;}
+				i++;
+				L[44] = D[i+32];
+				M[44] = E[i+32];
+				N[44] = F[i+32];
+				O[44] = G[i+32];
+				P[44] = H[i+32];
+				Q[44] = I[i+32];
+			}
+
+			/* ==              L45                    */
+
+			L[45] = 0 ;  
+			i = 0 ;
+
+			while(i < 22)
+			{
+				if(B[33 + i] >= 1 / J[44]){break;}
+				i++;
+				L[45] = D[i+32];
+				M[45] = E[i+32];
+				N[45] = F[i+32];
+				O[45] = G[i+32];
+				P[45] = H[i+32];
+				Q[45] = I[i+32];
+			}
+
+
+			/* ==              L46                    */
+
+			L[46] = 0 ;  
+			i = 0 ;
+
+			while(i < 22)
+			{
+				if(B[33 + i] >= 1 / J[45]){break;}
+				i++;
+				L[46] = D[i+32];
+				M[46] = E[i+32];
+				N[46] = F[i+32];
+				O[46] = G[i+32];
+				P[46] = H[i+32];
+				Q[46] = I[i+32];
+			}
+				
+
+
+			/* ==              L47                    */
+
+			L[47] = 0 ;  
+			i = 0 ;
+
+			while(i < 22)
+			{
+				if(B[33 + i] >= 1 / J[46]){break;}
+				i++;
+				L[47] = D[i+32];
+				M[47] = E[i+32];
+				N[47] = F[i+32];
+				O[47] = G[i+32];
+				P[47] = H[i+32];
+				Q[47] = I[i+32];
+			}
+
+
+			/* ==              L48                    */
+
+			L[48] = 0 ;  
+			i = 0 ;
+
+			while(i < 22)
+			{
+				if(B[33 + i] >= 1 / J[47]){break;}
+				i++;
+				L[48] = D[i+32];
+				M[48] = E[i+32];
+				N[48] = F[i+32];
+				O[48] = G[i+32];
+				P[48] = H[i+32];
+				Q[48] = I[i+32];
+			}
+
+			/* ==              L49                   */
+
+			L[49] = 0 ;  
+			i = 0 ;
+
+			while(i < 22)
+			{
+				if(B[33 + i] >= 1 / J[48]){break;}
+				i++;
+				L[49] = D[i+32];
+				M[49] = E[i+32];
+				N[49] = F[i+32];
+				O[49] = G[i+32];
+				P[49] = H[i+32];
+				Q[49] = I[i+32];
+			}
+
+			Console.WriteLine (L[49]);
+			Console.WriteLine (M[49]);
+			Console.WriteLine (N[49]);
+			Console.WriteLine (O[49]);
+			Console.WriteLine (P[49]);
+			Console.WriteLine (Q[49]);
+
+
+
+
 
 
 
