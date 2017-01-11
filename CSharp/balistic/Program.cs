@@ -523,6 +523,18 @@ namespace balistic
 
 
 
+			// Array L   - AS
+			L[33] = D[Array.IndexOf(C, S[33])];
+			M[33] = E[Array.IndexOf(C, S[33])];
+			N[33] = F[Array.IndexOf(C, S[33])];
+			O[33] = G[Array.IndexOf(C, S[33])];
+			P[33] = H[Array.IndexOf(C, S[33])];
+			Q[33] = I[Array.IndexOf(C, S[33])];
+
+
+
+
+
 
 		}
 	}
